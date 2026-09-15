@@ -1,16 +1,17 @@
-# Marca Albuquerque Engenharia — rodada 2 (preto e branco)
+# Marca Albuquerque Engenharia
 
-Três direções para o monograma **AE**, cada uma com assinatura vertical, horizontal,
-monograma solto e ícone, em positivo e negativo. Abra `index.html` para o comparativo.
+Monograma **AE** em ligadura, construído como pórtico: fundação, pilar compartilhado,
+contraventamento (perna diagonal), viga e lajes. Só preto `#0A0A0A` e branco `#FFFFFF`.
+Wordmark **Albuquerque** em Lexend SemiBold e descritor **ENGENHARIA** em Lexend Medium,
+já convertidos em curvas.
 
-| Pasta | Direção | Monograma | Fonte do nome |
-|---|---|---|---|
-| `bloco/` | **Recomendada.** Æ em grade, traço grosso, corte diagonal no A | fachada com aberturas | Outfit Medium, caixa baixa |
-| `traco/` | Pórtico em linha única (Λ + três barras) | leve, técnico | Jost Light |
-| `placa/` | AE em Sora ExtraBold sangrando num quadrado preto | pesado, urbano | Sora SemiBold, caixa alta |
+Abra `index.html` para o manual (anatomia, versões, aplicações e regras).
 
-Cada pasta: `ae-vertical-{preto,branco}.svg`, `ae-horizontal-{preto,branco}.svg`,
-`ae-monograma-{preto,branco}.svg`, `ae-icone-{preto,branco}.svg` e `png/` em alta resolução.
-Texto dos SVG já convertido em curvas.
-
-Cores: preto `#0A0A0A` e branco `#FFFFFF`.
+| Arquivo | Uso |
+|---|---|
+| `ae-vertical-{preto,branco}.svg` | Assinatura principal (AE acima, nome abaixo) |
+| `ae-horizontal-{preto,branco}.svg` | Cabeçalho de laudo, e-mail, rodapé |
+| `ae-wordmark-{preto,branco}.svg` | Só o nome |
+| `ae-monograma-{preto,branco}.svg` | Só o símbolo (carimbo, marca-d'água, tapume) |
+| `ae-icone-{preto,branco}.svg` | Favicon, app, avatar (quadrado arredondado) |
+| `png/` | Exportações em alta resolução |
