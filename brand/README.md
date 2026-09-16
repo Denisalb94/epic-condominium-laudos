@@ -1,20 +1,17 @@
 # Marca Albuquerque Engenharia
 
-Monograma **AE** em ligadura, construído como pórtico: fundação, pilar compartilhado,
-contraventamento (perna diagonal), viga dourada e lajes. Cores: Navy `#1B2A4A` e
-Dourado `#C6912F` (acento na viga e no descritor). Fonte **Lexend** em tudo:
-wordmark *Albuquerque* SemiBold 600 e descritor *ENGENHARIA* Medium 500, em curvas nos SVG.
+Monograma **AE** em ligadura, construído como pórtico: pilar compartilhado,
+contraventamento (perna diagonal), viga e lajes, exatamente como na amostra aprovada. Só preto `#0A0A0A` e branco `#FFFFFF`.
+Wordmark **Albuquerque** em Lexend SemiBold e descritor **ENGENHARIA** em Lexend Medium,
+já convertidos em curvas.
 
-Abra `index.html` para o manual (anatomia, versões, aplicações, cor, tipografia e regras).
+Abra `index.html` para o manual (anatomia, versões, aplicações e regras).
 
 | Arquivo | Uso |
 |---|---|
-| `ae-vertical-*.svg` | Assinatura principal (AE acima, nome abaixo) |
-| `ae-horizontal-*.svg` | Cabeçalho de laudo, e-mail, rodapé |
-| `ae-wordmark-*.svg` | Só o nome |
-| `ae-monograma-*.svg` | Só o símbolo (carimbo, marca-d'água, tapume) |
-| `ae-icone-{navy,preto,branco}.svg` | Favicon, app, avatar |
+| `ae-vertical-{preto,branco}.svg` | Assinatura principal (AE acima, nome abaixo) |
+| `ae-horizontal-{preto,branco}.svg` | Cabeçalho de laudo, e-mail, rodapé |
+| `ae-wordmark-{preto,branco}.svg` | Só o nome |
+| `ae-monograma-{preto,branco}.svg` | Só o símbolo (carimbo, marca-d'água, tapume) |
+| `ae-icone-{preto,branco}.svg` | Favicon, app, avatar (quadrado arredondado) |
 | `png/` | Exportações em alta resolução |
-
-Variantes: `positivo` (navy sobre claro), `negativo-navy`, `negativo-preto`,
-`mono-preto`, `mono-branco`.
